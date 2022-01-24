@@ -1,0 +1,60 @@
+#story {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 150px;
+}
+
+.story__img img {
+    width: 410px;
+    height: 503px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.story__text {
+    padding: 50px 0 50px 100px;
+}
+
+.story__text h1 {
+    font-size: 65px;
+    font-weight: normal;
+}
+
+.story__text p {
+    margin-top: 24px;
+    max-width: 450px;
+    font-size: 20px;
+}
+
+#meet {
+    display: flex;
+    padding-bottom: 150px;
+}
+
+.meet__text {
+    background: rgb(215, 215, 203);
+    padding: 15% 150px 0 150px;
+}
+
+.meet__text span {
+    display: block;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.meet__text p {
+    line-height: 1.7em;
+    margin-bottom: 24px;
+}
+
+#video {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+#video video {
+    width: 100%;
+}
